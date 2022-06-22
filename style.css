@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #AEDBCE;
+}
+.background{
+    position:relative;
+
+    
+    justify-content: column;
+
+}
+
+.head1{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.4rem;
+    margin: 10px 0;
+    text-align: center;
+}
+.cont1{
+    padding: 0px 20px 0px 20px;
+    font-size: 0.8rem;
+    color: #7E7474;
+    margin: 15px 0;
+    text-align: center;
+
+}
+.div2{
+    background-color: #CDF0EA;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 25px;
+}
+
+.img1{
+    margin: 15px 0px 0px 5px ;
+    float: left;
+
+}
+.head2{
+    font-size: 1rem;
+    margin: 10px 100px 0px 0px;
+    padding-top: 5%;
+}
+.money{
+    font-size: 0.75rem;
+    margin:0px 120px 5px 0px;
+    color: #7E7474;
+}
+
+.button{
+    padding: 10px 30px 10px 30px;
+    background-color: #516BEB;
+    width: 230px;
+    text-align: center;
+    border-radius: 10px;
+    color:white;
+    box-shadow: 0px 1px 5px 1px;
+    font-size:0.9rem;
+    margin: 15px auto;
+}
+.button a{
+    color:white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #84DFFF ;
+}
+.button a:hover{
+    zoom: 101%;
+    -ms-zoom-animation: inherit;
+}
+.but1{
+    position: absolute;
+    z-index: 100;
+    margin: 0px 0px 0px 200px;
+}
+.cont2 a{
+    color:#7E7474;
+    text-decoration: none;
+}
+.cont2{
+    font-size:0.75rem;
+    color: #7E7474;
+    text-align: center;
+}
+.top{
+position:absolute;
+  z-index:100;
+    background: #FCF8E8;
+    width: 350px;
+    height:530px;
+    margin: -400px auto auto 520px;
+    border-radius:4%;
+    box-shadow: 2px 2px 10px 10px #839AA8;
+}
+.imghero{
+    /* border-bottom-left-radius: 1000px; */
+    border-radius: 4% 4% 0 0;
+    width: 350px;
+    z-index:0;
+   
+    
+   
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    padding: 0px 10px;
+
+}
+.main-box a{
+    font-size: 0.9rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 80px;
+    font-size: 0.5rem;
+    justify-content: center;
+}
+
+.text h2{
+    font-size: 1rem;
+}
+.text p{
+    font-size: 0.7rem;
+    color:#7E7474;
+    margin:0px 50px 0px 0px;
+    
+}
+.main-box a{
+    text-decoration:none;
+}
